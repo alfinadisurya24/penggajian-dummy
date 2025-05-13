@@ -63,17 +63,4 @@
             </div>
         </form>
     </div>
-    {{-- <div class="rounded d-flex flex-column mb-5">
-        <label for="placement" class="form-label">Lokasi Penempatan</label>
-        <input type="text" class="form-control" name="placement" id="placement" data-kt-autosize="true" value="{{ $action == 'update' ? $data->placement : old('placement') }}" />
-    </div>
-    <div class="rounded d-flex flex-column mb-5">
-        <label for="type" class="form-label">Tipe Pekerjaan</label>
-        <select class="form-control" name="type" id="type" data-kt-autosize="true">
-            <option value="" selected disabled>Pilih Tipe Pekerjaan</option>
-            @foreach ($constant::CAREER_TYPE_LABELS as $key => $item)
-                <option value="{{$key}}" {{ ($action == 'update' ? $data->type == $key : old('type') == $key) ? 'selected' : '' }}>{{$item}}</option>
-            @endforeach
-        </select>
-    </div> --}}
 @endsection
